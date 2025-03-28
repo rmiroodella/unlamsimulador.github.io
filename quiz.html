@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="quiz.js" defer></script>
+    <title>Seguridad Vial evaluación</title>
+</head>
+<body id="quiz-body">
+
+    <div id="quiz-container">
+
+        <header class="quiz-header">
+
+            <div class="header-cont">
+                <img src="./img/logo unlam blanco.jpeg" alt="">
+            </div>
+
+            <div class="timer">
+                <p><strong>Tiempo restante:</strong></p>
+                <span id="countdown" class="time"><strong></strong></span>
+            </div>
+
+        </header>
+
+        <div class="app">
+            <div class="quiz">
+                <h2 id="question"></h2>
+                <div id="quiz-cont" class="quiz-cont">
+                    <div id="left-quiz" class="left-quiz">
+                        <div id="media-container"></div>
+                    </div>
+                    <div id="right-quiz" class="right-quiz">
+                        <div id="answer-buttons">
+                            <button class="btn"></button>
+                            <button class="btn"></button>
+                            <button class="btn"></button>
+                            <button class="btn"></button>
+                        </div>
+                    </div>
+                    <div class="right-quiz-text" hidden>
+                        <div class="answer-text">
+                            <textarea name="answer-text" id="answer-textarea" placeholder="Escriba aqui su respuesta"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button id="next-btn"></button>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+<div id="popup">
+    <div class="pop-text">
+        <h2 id="popup-h2"></h2>
+        <p id="popup-p"></p>
+    </div>
+    <button class="button-82-pushable" role="button" type="submit" id="pop-button">
+        <span class="button-82-shadow"></span>
+        <span class="button-82-edge"></span>
+        <span class="button-82-front text">
+        Ver Resultados
+        </span>
+    </button>
+</div>
+</body>
+</html>
